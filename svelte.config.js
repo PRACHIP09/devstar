@@ -7,6 +7,15 @@ const config = {
   kit: {
     adapter: adapter({out: 'build'}),
   },
+  optimizeDeps: {
+    include: [
+      "events",
+      "uuid",
+      "visibilityjs",
+      "stampit",
+      "lodash",
+    ]
+  },
 };
 
 export default config;
